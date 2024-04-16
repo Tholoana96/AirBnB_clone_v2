@@ -10,3 +10,4 @@ REVOKE ALL PRIVILEGES ON performance_schema.* FROM 'hbnb_dev'@'localhost';
 GRANT SELECT ON performance_schema.* TO 'hbnb_dev'@'localhost';
 -- flush privileges to apply the changes
 FLUSH PRIVILEGES;
+redo
