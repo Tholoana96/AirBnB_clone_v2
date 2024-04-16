@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 -- this script prepares a MySQL server for the project
 -- create project developement database with the name : hbnb_dev_db
+=======
+-- creates a MySQL server with:
+-- catabase hbnb_dev_db.
+-- user hbnb_dev with password hbnb_dev_pwd in localhost.
+-- grants all privileges for hbnb_dev on hbnb_dev_db.
+-- grants SELECT privilege for hbnb_dev on performance_schema.
+
+>>>>>>> a290feb5140ebc054bf368fce02c3762258fc188
 CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
 -- creating new user named : hbnb_dev with all privileges on the db hbnb_dev_db
 -- with the password : hbnb_dev_pwd if it dosen't exist
