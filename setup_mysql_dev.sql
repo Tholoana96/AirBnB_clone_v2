@@ -1,8 +1,8 @@
--- Creates a MySQL server with:
---   Database hbnb_dev_db.
---   User hbnb_dev with password hbnb_dev_pwd in localhost.
---   Grants all privileges for hbnb_dev on hbnb_dev_db.
---   Grants SELECT privilege for hbnb_dev on performance_schema.
+-- creates a MySQL server with:
+-- catabase hbnb_dev_db.
+-- user hbnb_dev with password hbnb_dev_pwd in localhost.
+-- grants all privileges for hbnb_dev on hbnb_dev_db.
+-- grants SELECT privilege for hbnb_dev on performance_schema.
 
 CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
 CREATE USER
